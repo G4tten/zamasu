@@ -1,0 +1,21 @@
+{
+  "name": "zamasu",
+  "version": "1.0.0",
+  "description": "bot discord per tenere traccia delle alzate di mano sulle chat vocali di discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G4tten/zamasu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/G4tten/zamasu/issues"
+  },
+  "homepage": "https://github.com/G4tten/zamasu#readme"
+}
