@@ -4,7 +4,9 @@
   "description": "bot discord per tenere traccia delle alzate di mano sulle chat vocali di discord",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "deploy-commands": "node deploy-commands.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/G4tten/zamasu/issues"
   },
-  "homepage": "https://github.com/G4tten/zamasu#readme"
+  "homepage": "https://github.com/G4tten/zamasu#readme",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
 }
